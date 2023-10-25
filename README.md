@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TaskMaster Smart Contract
 
-## Getting Started
+A smart contract for managing task lists with financial incentives upon completion on the Ethereum blockchain.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Owner Authentication
+- Task Creation
+- Task Completion
+- Fund Deposit and Withdrawal
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Smart Contract Functions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `createTask`: Allows the owner to create a new task.
+- `completeTask`: Allows the owner to mark a task as completed.
+- `depositFunds`: Allows the owner to deposit funds into the contract.
+- `getTaskCount`: Retrieves the number of tasks.
+- `getDeposit`: Retrieves the amount of funds deposited.
+- `getTasks`: Retrieves all tasks.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Events
 
-## Learn More
+- `TaskCreated`: Emitted when a new task is created.
+- `TaskCompleted`: Emitted when a task is marked as completed.
+- `DepositWithdrawn`: Emitted when the deposit is withdrawn upon task completion.
 
-To learn more about Next.js, take a look at the following resources:
+## Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Solidity ^0.8.18
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contract Working Demonstration
 
-## Deploy on Vercel
+[![Watch the demonstration video](demo-image-url)](demo-video-url)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contract Code
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Access the smart contract code [here](https://github.com/your-username/TaskMaster/blob/main/contracts/AccountabilityContract.sol).
+
+
