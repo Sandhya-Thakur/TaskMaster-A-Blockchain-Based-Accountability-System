@@ -24,16 +24,14 @@ A smart contract for managing task lists with financial incentives upon completi
 - `TaskCompleted`: Emitted when a task is marked as completed.
 - `DepositWithdrawn`: Emitted when the deposit is withdrawn upon task completion.
 
-## Prerequisites
 
-- Solidity ^0.8.18
 
 ## Contract Working Demonstration
 
-[![Watch the demonstration video](demo-image-url)](demo-video-url)
+[![Watch the demonstration video]([demo-image-ur](https://github.com/Sandhya-Thakur/TaskMaster-A-Blockchain-Based-Accountability-System/blob/main/public/task%20master.png)l)](demo-video-url)
 
 ## Contract Code
 
-Access the smart contract code [here](https://github.com/your-username/TaskMaster/blob/main/contracts/AccountabilityContract.sol).
+Access the smart contract code [here](https://github.com/Sandhya-Thakur/TaskMaster-A-Blockchain-Based-Accountability-System/blob/main/lib/contract.sol).
 
 
