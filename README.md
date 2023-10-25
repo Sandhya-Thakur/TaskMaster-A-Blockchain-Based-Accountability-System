@@ -28,7 +28,7 @@ A smart contract for managing task lists with financial incentives upon completi
 
 ## Contract Working Demonstration
 
-[![Watch the demonstration video]([demo-image-ur](https://github.com/Sandhya-Thakur/TaskMaster-A-Blockchain-Based-Accountability-System/blob/main/public/task%20master.png)l)](demo-video-url)
+[![Watch the video](https://github.com/Sandhya-Thakur/TaskMaster-A-Blockchain-Based-Accountability-System/blob/main/public/task%20master.png)]([https://youtu.be/TXJKPOUbcx0](https://youtu.be/rFly3Z8zoaU)
 
 ## Contract Code
 
